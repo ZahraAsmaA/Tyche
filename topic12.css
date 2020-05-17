@@ -1,0 +1,349 @@
+/* color schemes */
+/* fonts */
+/* sections and containers */
+.colored{
+    background-color: #f9b384;
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+}
+.colored2{
+    background-color: #362b2b;
+    color: bisque;
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+}
+.colored3{
+    background-color: bisque;
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+}
+.colored2 p {
+    color: #f9b384;
+}
+.container-fluid{
+    width: 100%;
+    padding-right: 15%;
+    padding-left: 15%;
+}
+/* general */
+a:link {
+    color: #581c0c;
+}
+
+/* visited link */
+a:visited {
+    color: #581c0c;
+}
+
+/* mouse over link */
+a:hover {
+    color: #ca5116;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: #ca5116;
+    text-decoration: none;
+}
+body{
+    color: #581c0c;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 250%;
+    letter-spacing: 5px;
+}
+h3{
+    font-family: 'Oswald', sans-serif;
+}
+h5{
+    font-family: 'Oswald', sans-serif;
+}
+p{
+    color: #362b2b;
+    font-size: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+.card{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    background-color: transparent;
+}
+.card-text{
+    margin-left: 2rem;
+}
+.fas{
+    color: bisque;
+    padding-right: 5%;
+}
+.hr-div{
+    width: 5%;
+    border-top: dotted black;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+.invisible{
+    border-style: none;
+}
+small{
+    position: relative;
+    left: 80%;
+}
+.card{
+    margin: 10% auto 10%;
+    border-style: none;
+}
+.card-footer{
+    border-style: none;
+    float: right;
+}
+
+/* navbar */
+.logo{
+    width: 15%;
+    height: 15%;
+    border-radius: 50%;
+    float: left;
+}
+.navbar{
+    padding: 0;
+    padding-top: 1rem;
+}
+.navbar-brand{
+    position: absolute;
+    margin-top: 1rem;
+}
+.navbar-nav{
+    padding-top: 5%;
+}
+.navbar-toggler{
+    position: absolute;
+    right: 0%;
+}
+
+/* title */
+.hr-intro{
+    width: 10%;
+    border-top: solid #581c0c;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+.logo-header{
+    border-radius: 50%;
+    width: 15%;
+    height: 15%;
+        margin-top: 10%;
+    }
+    .title-header{
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 15px;
+}
+.sub{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* carousel */
+.carousel{
+    margin-top: 10%;
+}
+.carousel-item img{
+    opacity: 0.8;
+}
+.carousel-item p{
+    color: black;
+}
+.carousel-caption h5{
+    color: black;
+    font-size: 280%;
+    font-family: 'Oswald', sans-serif;
+}
+.title-sub{
+    padding-bottom: 10%;
+}
+
+/* three */
+#menu{
+    margin-top: 10%;
+}
+.line li{
+    list-style-type: none;
+    display: inline;
+}
+.line h5{
+    width: 300px;
+}
+.others{
+    left: 70%;
+    padding-top: 8%;
+    position: sticky;
+    width: fit-content;
+}
+.row{
+    margin-top: 10%;
+}
+.people{
+    width: 100%;
+}
+
+/* news and fortune */
+.text-muted{
+    color: #f9b384;
+}
+.card-body{
+    padding-top: 10%;
+}
+
+/* patron */
+#sub{
+    margin: 10%;
+}
+
+
+/* locations */
+#loc{
+    position: relative;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.loc-sub{
+    margin: 2% auto 5%;
+}
+.locations{
+    margin: 5% auto 2%;
+}
+
+/* socials */
+#follow{
+    margin-top: 10%;
+}
+.fab{
+    color: #581c0c;
+    width: 5x;
+    margin-bottom: 5%;
+}
+
+/* about us */
+#about{
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+}
+.about-logo{
+    border-radius: 50%;
+    float: left;
+}
+.about-p{
+    text-align: left;
+    margin-top: 8%;
+}
+.about-title{
+    margin-bottom: 3%;
+}
+
+/* footer */
+.footer-social{
+    color: bisque;
+    text-align: center;
+}
+#socialf{
+    width: 100%;
+    text-align: center;
+}
+.hr-footer{
+    border-style: none;
+}
+#footer{
+    background-color: #362b2b;
+    color: bisque;
+    width: 100%;
+    padding: 3%;
+    margin: 0;
+    text-align: left;
+    padding-bottom: 0;
+}
+.detail{
+    margin-bottom: 0;
+    color: bisque;
+}
+.copyright{
+    width: 100%;
+    text-align: center;
+    padding-top: 5%
+}
+
+/* menu */
+.drink-name{
+    font-size: 150%;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+.zodiac-img{
+    width: 100%;
+}
+.zodiac-card{
+    margin-bottom: 10%;
+}
+.zodiac-sub{
+    font-size: 100%;
+}
+
+/* pricing */
+.hr-gray{
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-top: solid gainsboro;
+    width: 50%;
+}
+.hr-dot{
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-top: dotted gainsboro;
+    width: 5%;
+}
+.sign{
+    margin-top: -10%;
+    padding-bottom: 50%;
+    text-decoration: underline;
+}
+.custom-control{
+    text-align: left;
+    margin-left: 42.5%;
+}
+
+/* checkout */
+.checkout{
+    padding: 10%;
+}
+.checkout-button{
+    margin-bottom: 10%;
+}
+.ckbtn{
+    color: white;
+}
+
+/* locations */
+.mall-img{
+    width: 100%;
+    height: 60%;
+}
+
+/* news and fortune */
+.card-img-right{
+    width: 50%;
+}
+.card-img-left{
+    width: 50%;
+}
+.desc{
+    font-size: smaller;
+}
