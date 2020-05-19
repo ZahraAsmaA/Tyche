@@ -195,11 +195,11 @@ small{
 }
 
 /* news and fortune */
-.text-muted{
-    color: #f9b384;
-}
 .card-body{
     padding-top: 10%;
+}
+.text-muted{
+    color: #f9b384;
 }
 
 /* patron */
@@ -336,8 +336,9 @@ small{
 
 /* locations */
 .mall-img{
-    width: 100%;
+    width: 90%;
     height: 60%;
+    padding-bottom: 5%;
 }
 
 /* news and fortune */
